@@ -36,8 +36,9 @@ Once the training set is ready, you can follow the training instructions on the 
 
 # Dependencies
 - Numpy
-- OpenCV (cv2)
-- Tensorflow
+- OpenCV 3 
+- Tensorflow 1.0
+- Python 3
 
 # Sources
 Mark Jay: https://www.youtube.com/playlist?list=PLX-LrBk6h3wSGvuTnxB2Kj358XfctL4BM
