@@ -41,4 +41,5 @@ Once the training set is ready, you can follow the training instructions on the 
 
 # Sources
 Mark Jay: https://www.youtube.com/playlist?list=PLX-LrBk6h3wSGvuTnxB2Kj358XfctL4BM
+
 Darkflow Github Repo: https://github.com/thtrieu/darkflow
