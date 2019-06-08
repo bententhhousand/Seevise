@@ -35,6 +35,10 @@ arg4 = images folder (train/images) This images folder contains all of the image
 Once the training set is ready, you can follow the training instructions on the official Darkflow github repo, located at https://github.com/thtrieu/darkflow
 
 # Dependencies
+- Numpy
+- OpenCV (cv2)
+- Tensorflow
 
 # Sources
-My main source was Mark Jay. His youtube link is: https://www.youtube.com/channel/UC2W0aQEPNpU6XrkFCYifRFQ 
+Mark Jay: https://www.youtube.com/playlist?list=PLX-LrBk6h3wSGvuTnxB2Kj358XfctL4BM
+Darkflow Github Repo: https://github.com/thtrieu/darkflow
