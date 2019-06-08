@@ -12,8 +12,29 @@ This project is based around the phenomenal "Image Detection with YOLO-v2" youtu
 This project takes in realtime video via a webcam or camera and detects objects that may be helpful for the blind to know about in order to navigate a city/suburban environment. I initially focused on a few things, such as trash cans, crosswalks, cars, and more, but ended up with just the crosswalks/cars due to many errors involving large scale data collection for training. Once a traffic light or stop sign is detected in the camera, the code will automatically start a counter for how many frames in a row that object has been detected in order to eliminate "noise". After that, an audio cue alerts the user to the location and distance to the object. A timer prevents a constant stream of audio cues, and I currently have it set to 10 seconds for crosswalks. As for cars, I have it set to alert every 3 seconds, and only if the car is directly in front of the user. 
 
 # Demonstration
-https://gfycat.com/unconsciouslavishamphiuma 
-(Sound on)
+[Gfycat Demonstration, Sound On](https://gfycat.com/unconsciouslavishamphiuma)
+
+# Usage
+To run this code, navigate to the darkflow-master directory and run 
+```
+realtime.py
+```
+# Training
+To train the code, create folders of training data sorted by object, and run 
+```
+python getx.py arg1 arg2 arg3 arg4
+```
+arg1 = object name (car)
+
+arg2 = source folder (data/cars)
+
+arg3 = annotations folder (train/annotations) This annotations folder contains all of the annotations, regardless of object
+
+arg4 = images folder (train/images) This images folder contains all of the images, regardless of object
+
+Once the training set is ready, you can follow the training instructions on the official Darkflow github repo, located at https://github.com/thtrieu/darkflow
+
+# Dependencies
 
 # Sources
 My main source was Mark Jay. His youtube link is: https://www.youtube.com/channel/UC2W0aQEPNpU6XrkFCYifRFQ 
