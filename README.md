@@ -22,7 +22,7 @@ realtime.py
 # Training
 To train the code, create folders of training data sorted by object, and run 
 ```
-python getx.py arg1 arg2 arg3 arg4
+python genx.py arg1 arg2 arg3 arg4
 ```
 arg1 = object name (car)
 
