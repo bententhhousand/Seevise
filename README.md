@@ -16,7 +16,7 @@ This project takes in realtime video via a webcam or camera and detects objects 
 
 #Setup
 1. Download the contents of this directory.
-2. Go to https://drive.google.com/open?id=151z-AeCH4Gf4cBwdnwanRq6qP7ZeDgAHto download the bin directory.
+2. Go to https://drive.google.com/open?id=151z-AeCH4Gf4cBwdnwanRq6qP7ZeDgAH to download the bin directory.
 3. Place the bin directory in the darkflow-master directory
 
 # Usage
